@@ -3,8 +3,246 @@
 *{
     margin: 0px;
 }
+ 
 
-@media(max-width:500px){
+@media (min-width:600px){
+    .row .col{
+       float: none !important;
+       margin: auto;
+         
+     }
+
+    .header{
+        width: 100%;
+           margin: 0px;
+           height: 1000px;
+            background-color: rgba(236, 236, 236, 1);
+          
+       }
+        .header-content{
+         
+          
+            display: flex !important;
+           justify-content: center !important;
+           
+           height: inherit;
+           align-items: center;
+           flex-flow: column wrap;
+       }
+       .title{
+           font-size: 110px;
+           font-family: 'Ramabhadra', sans-serif;
+           margin: 0px;
+           
+       }
+       .title-2{
+          
+           font-size: 90px;
+           font-family: 'Raleway', sans-serif;
+           margin: 0px;
+            margin-top: 5px;
+            
+            font-weight: 400;
+       }
+        .description{
+           margin: 0px;
+           margin-top: 10px;
+           font-size: 40px;
+           font-family: 'Roboto', sans-serif;
+       }
+        .title-2,.description,.title{
+           margin-left: 10px;
+          
+       }
+        .my-work{
+           
+           height: 400px;
+           
+           display: flex;
+         
+           flex-flow: row ;
+         
+           align-items: center;
+           justify-content: center;
+           
+          
+          
+          
+        }
+
+      
+        
+          .header-work{
+         
+           margin-top: 50px !important;
+         
+       }
+       .header-work h2{
+           text-align: center;
+           font-family: 'Ramabhadra', sans-serif;
+           font-size: 50px;
+           color: black;
+       }
+       .box{
+          
+          margin: 10px;
+        
+           border-radius: 5px;
+           box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+        
+           width:400px !important;
+           height: 300px;
+          
+       }
+       .img1{
+      background: url(/img/img1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img2{
+        background: url(/img/img2.jpg);
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .button{
+             transform: scale(1.3);
+             margin-top: 20px;
+     }
+     .color{
+         border-radius: 5px;
+         background-color: black;
+         font-family: 'Ramabhadra', sans-serif;
+         text-transform: capitalize;
+         
+     }
+     .color:active{
+         background-color: black;
+     }
+     .color:visited{
+         background-color: black;
+     }
+     .color:hover{
+         background-color: black;
+     }
+      .my-contact{
+        margin-top: 100px;
+      
+        height: auto;
+    }
+    .title-content h2{
+        margin-top: 80px;
+     
+         text-align: center;
+        font-family: 'Ramabhadra', sans-serif;
+         font-size: 50px;
+        color: black;
+    }
+     .whatapps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid;
+        width: 270px !important;
+        height: 200px !important;
+         float: none !important;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      
+    }
+    .whatapps h2{
+         margin-left: 30px;
+         font-size: 20px;
+     }
+     .icon{
+         transform: scale(2);
+     }
+      .whatapps {
+        color: black;  
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        width: 400px !important;
+        height: 200px !important;
+         float: none !important;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      
+    }
+    .email{
+         color: black;
+         margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid;
+        width: 400px !important;
+        height: 200px !important;
+         float: none !important;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      
+    }
+     .email h2{
+        
+         margin-left: 30px;
+         font-size: 20px;
+     }
+     .icon2{
+         transform: scale(2);
+     }
+      .header-socialmedia {
+         margin-top: 50px;
+     }
+     .header-socialmedia h2{
+         font-size: 26px;
+         text-align: center;
+     }
+     .social-media{
+         display: flex;
+        justify-content: center;
+         margin-top: 20px;
+        
+     }
+     .instagram,.facebook,.youtube{
+
+         color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         border: solid;
+         border-radius: 100%;
+         width: 60px;
+         height: 60px;
+     }
+     .facebook,.youtube{
+          margin-left: 30px;
+     }
+    
+    
+      
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
 
     .header{
         margin: 0px;
@@ -53,7 +291,11 @@
         
         
        
-        height: 600px;
+        height: 460px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
         
         
         
@@ -72,8 +314,7 @@
         font-size: 36px;
         color: black;
     }
-    .box
-    {
+    .box{
         border-radius: 5px;
         box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
         margin-top: 30px;
