@@ -140,20 +140,7 @@
          font-size: 50px;
         color: black;
     }
-     .whatapps {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: solid;
-        width: 270px !important;
-        height: 200px !important;
-         float: none !important;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 5px;
-      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
-      
-    }
+    
     .whatapps h2{
          margin-left: 30px;
          font-size: 20px;
@@ -162,6 +149,7 @@
          transform: scale(2);
      }
       .whatapps {
+          border: 1px solid black;
         color: black;  
         margin-top: 100px;
         display: flex;
@@ -174,7 +162,7 @@
       margin-left: auto;
       margin-right: auto;
       border-radius: 5px;
-      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
       
     }
     .email{
@@ -183,14 +171,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid;
+        border: 1px solid black;
         width: 400px !important;
         height: 200px !important;
          float: none !important;
       margin-left: auto;
       margin-right: auto;
       border-radius: 5px;
-      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
       
     }
      .email h2{
@@ -220,7 +208,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-         border: solid;
+         border: 1px solid black;
          border-radius: 100%;
          width: 60px;
          height: 60px;
@@ -380,20 +368,7 @@
         color: black;
     }
    
-    .whatapps {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: solid;
-        width: 270px !important;
-        height: 200px !important;
-         float: none !important;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 5px;
-      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
-      
-    }
+    
      .whatapps h2{
          margin-left: 30px;
          font-size: 20px;
@@ -402,6 +377,7 @@
          transform: scale(2);
      }
       .whatapps {
+            border: 1px solid black;
         color: black;  
         margin-top: 100px;
         display: flex;
@@ -414,7 +390,7 @@
       margin-left: auto;
       margin-right: auto;
       border-radius: 5px;
-      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
       
     }
 
@@ -424,14 +400,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid;
+        border: 1px solid black;
         width: 270px !important;
         height: 200px !important;
          float: none !important;
       margin-left: auto;
       margin-right: auto;
       border-radius: 5px;
-      box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
       
     }
      .email h2{
@@ -461,7 +437,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-         border: solid;
+          border: 1px solid black;
          border-radius: 100%;
          width: 60px;
          height: 60px;
